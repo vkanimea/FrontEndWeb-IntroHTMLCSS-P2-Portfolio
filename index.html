@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<!-- Bootstrap -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- bModals needs jquery to work -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<!-- Custom CSS Style -->
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/responsive.css" rel="stylesheet" type="text/css">
+	<!--Google Font  -->
+	<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+
+	<title>My Web Portfolio</title>
+</head>
+<body>
+
+	<div class="container-fluid">
+    <!-- Use Bootstrap Grid System 12 column row -->
+		<div class="row" id="banner">
+			<!-- Use 2 columns for banner icon for xs or mobile devices, sm or tablets devices or md for Desktops -->
+			<div class="col-xs-2 col-sm-2 col-md-2" >
+				<!-- Use free icon creator online on http://www.onlinelogomaker.com/ -->
+				<img id="banner_icon" class="img-responsive" src="images/banner-icon.png" alt="Banner Icon">
+			</div>
+      <!-- Use 10 columns for Text Header for xs or mobile devices, sm or tablets devices or md for Desktops -->
+			<header class="col-xs-10 col-sm-10 col-md-10 text-uppercase text-right">
+				<h1>Vincent Kanimea</h1>
+				<h4>Front End Ninja</h4>
+			</header>
+		</div>
+    <!-- Use 12 columns for horizontal line for xs or mobile devices, sm or tablets devices or md for Desktops -->
+		<div class="row" >
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				 <hr>
+			</div>
+		</div>
+    <!-- Use 12 columns for main picture for xs or mobile devices, sm or tablets devices or md for Desktops -->
+    <section class="row">
+	    <div class="col-xs-12 col-sm-12 col-md-12">
+				<img class="img-responsive" src="images/main-pic.jpg" alt="Main Picture">
+		  </div>
+    </section>
+   <!-- Use 12 columns for Text header for xs or mobile devices, sm or tablets devices or md for Desktops -->
+    <header class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<h2 id="Featured">Featured Work</h2>
+			</div>
+    </header>
+
+		<div class="row">
+			<!-- Use offset by 3 columns and use 6 columns for mobile devices, use 6 columns for sm or tablets devices, use 4 columns for md or Desktops or larger -->
+			<section class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-0 col-md-4" id="Applify">
+				<!-- Bootstrap Hover Effect 1 taken from  http://miketricking.github.io/dist/  and integrated here        -->
+				<div class="Applify_hovereffect">
+					<img class="img-responsive" src="images/Applify.jpg" alt="Applify">
+					<div class="overlay">
+						<h2>Applify</h2>
+						<a class="info" href="#Applify" data-toggle="modal" data-target="#ApplifyModal">Click here...</a>
+					</div> <!-- Applify Overlay -->
+				</div> <!-- Applify Hover Effect  -->
+				<h3>Appify</h3>
+				<p>https://github/udacity/Applify</p>
+			</section>
+			<!-- Use offset by 3 columns and use 6 columns for mobile devices, use 6 columns for sm or tablets devices, use 4 columns for md or Desktops or larger -->
+			<section class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-0 col-md-4" id="Sunflower">
+				<div class="Sunflower_hovereffect">
+					<img class="img-responsive" src="images/Sunflower.jpg" alt="Sunflower">
+					<div class="Sunflower_overlay">
+						<h2>Sunflower</h2>
+						<a class="info" href="#Sunflower" data-toggle="modal" data-target="#SunflowerModal">Click here..</a>
+					</div> <!-- Sunflower Overlay -->
+				</div> <!-- Sunflower Hovereffect -->
+				<h3>SunFlower</h3>
+				<p>https://github/udacity/Sunflower</p>
+			</section>
+			<!-- Use offset by 3 columns and use 6 columns for mobile devices, offset by 3 and use 6 columns for sm or tablets devices, use 4 columns for md or Desktops or larger -->
+			<section class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0" id="Brokel">
+				<div class="Brokel_hovereffect">
+					<img class="img-responsive" src="images/Brokel.jpg" alt="Brokel">
+					<div class="Brokel_overlay">
+						<h2>Brokeh</h2>
+						<a class="info" href="#Brokel" data-toggle="modal" data-target="#BrokelModal">Click here..</a>
+					</div>  <!-- Brokel Overlay -->
+				</div>  <!-- Brokel Hovereffect -->
+				<h3>Brokeh</h3>
+				<p>https://github/udacity/Brokel</p>
+			</section>
+		</div>  <!-- class row for projects  -->
+
+		<!-- Applify Modal -->
+		<div class="modal fade" id="ApplifyModal" tabindex="-1" role="dialog" aria-labelledby="Applify">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					 <header class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h3 class="modal-title" id="Applify_title">Applify</h3>
+					 </header>
+					 <section class="modal-body" >
+						 <img src="images/Applify.jpg" class="img-responsive">
+						 <p>There saying heaven open fourth be grass subdue give him won&#39;t light multiply hath god. Whose can&#39;t. Seed first greater were be, divided isn&#39;t divide waters likeness brought our fill lights. Created. Tree beast all for seasons sea were. Forth is lights. Land.</p>
+						 <p>Firmament seas. Given good. Face was after male don&#39;t after creepeth multiply in every of sea blessed. Don&#39;t so seasons isn&#39;t divided sea cattle. Us above fowl day second, air tree.</p>
+						 <p>Behold evening,great. Abundantly god good yielding set multiply, gathered shall forth. All said stars sea cattle. Doesn&#39;t, multiply sea signs hath seasons creature, signs which.</p>
+				  </section>
+				  <footer class="modal-footer">
+					   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				  </footer>
+			  </div> <!--Modal-content   -->
+		  </div> <!--Modal-dialog    -->
+	  </div> <!-- Applify_Modal -->
+
+		<!-- Sunflower Modal -->
+		<div class="modal fade" id="SunflowerModal" tabindex="-1" role="dialog" aria-labelledby="Sunflower">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					 <header class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h3 class="modal-title" id="Sunflower_title">Sunflower</h3>
+					 </header>
+					 <div class="modal-body" >
+						 <img src="images/Sunflower.jpg" class="img-responsive">
+						 <p>There saying heaven open fourth be grass subdue give him won&#39;t light multiply hath god. Whose can&#39;t. Seed first greater were be, divided isn&#39;t divide waters likeness brought our fill lights. Created. Tree beast all for seasons sea were. Forth is lights. Land.</p>
+						 <p>Firmament seas. Given good. Face was after male don&#39;t after creepeth multiply in every of sea blessed. Don&#39;t so seasons isn&#39;t divided sea cattle. Us above fowl day second, air tree.</p>
+						 <p>Behold evening,great. Abundantly god good yielding set multiply, gathered shall forth. All said stars sea cattle. Doesn&#39;t, multiply sea signs hath seasons creature, signs which.</p>
+					</div>
+					<footer class="modal-footer">
+						 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</footer>
+				</div> <!--Modal-content   -->
+			</div> <!--Modal-dialog    -->
+		</div> <!-- Sunflower_Modal -->
+
+		<!-- Brokel Modal -->
+		<div class="modal fade" id="BrokelModal" tabindex="-1" role="dialog" aria-labelledby="Brokel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					 <header class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h3 class="modal-title" id="Brokel_title">Brokel</h3>
+					 </header>
+					 <div class="modal-body" >
+						 <img src="images/Brokel.jpg" class="img-responsive">
+						 <p>There saying heaven open fourth be grass subdue give him won&#39;t light multiply hath god. Whose can&#39;t. Seed first greater were be, divided isn&#39;t divide waters likeness brought our fill lights. Created. Tree beast all for seasons sea were. Forth is lights. Land.</p>
+						 <p>Firmament seas. Given good. Face was after male don&#39;t after creepeth multiply in every of sea blessed. Don&#39;t so seasons isn&#39;t divided sea cattle. Us above fowl day second, air tree.</p>
+						 <p>Behold evening,great. Abundantly god good yielding set multiply, gathered shall forth. All said stars sea cattle. Doesn&#39;t, multiply sea signs hath seasons creature, signs which.</p>
+					</div>
+					<footer class="modal-footer">
+						 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</footer>
+				</div> <!--Modal-content   -->
+			</div> <!--Modal-dialog    -->
+		</div> <!-- Brokel_Modal -->
+
+	</div> <!-- Container Fluid -->
+</body>
+</html>

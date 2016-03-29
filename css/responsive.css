@@ -1,0 +1,28 @@
+     /* Adjust the following when the max width is set */
+   @media screen and (max-width: 320px) {
+     #banner_icon { image-resolution: 50%;}
+     h1 { font-size: 20px; }
+     h2 { font-size: 15px;}
+     h3 { font-size: 10px;}
+     h4 { font-size: 5px;}
+     p { font-size: 10px;}
+   }
+
+     /* Adjust the following when the min width and max width is set */
+    @media screen and (min-width: 321px) and (max-width: 549px) {
+    h1 { font-size: 32px;}
+    h2 { font-size: 18px;}
+    h3 { font-size: 12px;}
+    h4 { font-size: 8px; }
+    p { font-size: 12px;}
+    }
+
+      /* Adjust the following when the min width and max width is set */
+    @media screen and (min-width: 550px) and (max-width: 800px) {
+    h1 { font-size: 40px;}
+    h2 { font-size: 20px;}
+    h3 { font-size: 15px;}
+    h4 { font-size: 10px;}
+    p { font-size: 15px;}
+
+  }
