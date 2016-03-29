@@ -11,7 +11,7 @@
 
 
 body {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   color: #747704;
   font-weight: 400;
   }
@@ -28,7 +28,7 @@ h2 {
   text-align: left;
   font-weight: bolder;
   font-size: 40px;
-  margin:auto;
+  margin: auto;
    }
 
 h4 {
